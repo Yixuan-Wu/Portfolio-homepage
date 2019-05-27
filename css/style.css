@@ -1,10 +1,10 @@
 /*------------------------------------------------------------------
 [Master Stylesheet]
 
-Project:	Lattes - One page multi purpose page
+Project:	Yixuan Wu
 Version:	1.0
 Last change:	17/08/2015 [...]
-Designed by:	MOOZ Themes / www.MOOZthemes.com
+Designed by:	Yixuan Wu / www.ivywu.online
 Primary use:	One page
 
 [Table of contents]
@@ -38,7 +38,7 @@ Import Google Fonts
 
 body {
   margin: 0px;
-    font-family: "Open Sans", Sans-serif;
+    font-family: "Roboto", Sans-serif;
 }
 
 h1,
@@ -49,7 +49,7 @@ h5,
 h6 {
 font-weight: 300;
     letter-spacing: 0.4px;
-    font-family: "Open Sans", Sans-serif;
+    font-family: "Roboto", Sans-serif;
     color: #232323;
 }
 
@@ -118,7 +118,7 @@ section {
 	text-transform: uppercase;
 	font-weight: 400;
 	letter-spacing: 1px;
-	color:#fff
+	color:#8C8C8C
 }
 .navbar-default .nav li a:hover,.navbar-default .nav li a:focus {
 	color: #fed136;
@@ -188,7 +188,7 @@ header .intro-text {
 @media (min-width: 768px) {
 	header .intro-text {
 	    padding-top: 200px;
-	    padding-bottom: 50px;
+	    padding-bottom: 200px;
 	}
 }
 
@@ -337,7 +337,10 @@ margin: 0;
     float: left;
     height: 3px;
 }
-
+.unit-100-end-text-centered{
+	font-family:Vollkorn,sans-serif;
+	font-style:italic;
+}
 /*--------------------
 4.3. Portfolio
 --------------------*/
@@ -358,7 +361,9 @@ figcaption {
     width: 100%;
     height: 100%;	
 }
-
+.img-responsive{
+	overflow: inherit;
+}
 .ot-portfolio-item figure figcaption > a {
     z-index: 1000;
     text-indent: 200%;
@@ -473,6 +478,9 @@ figure.effect-bubba:hover p {
 
 .light-bg {
 	background-color: #f8f8f8;
+}
+.light-bg-p{
+	background-color:#FFFFFF;
 }
 
 .overlay-dark:before, .overlay-light:before {
