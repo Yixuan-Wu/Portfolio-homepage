@@ -235,7 +235,7 @@ header .intro-text .intro-lead-in  {
     flex-wrap: wrap;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: -230px;
+    margin-bottom: -320px;
     padding: 2rem;
     flex-direction: column;
     position: relative;
@@ -275,6 +275,8 @@ header .intro-text .intro-lead-in  {
 .content-block .ce-button{
     text-align:center;
     -webkit-font-smoothing: antialiased;
+    width:350px;
+    margin-left:40px;
 }
 
 .content-block .is-content {
@@ -286,17 +288,17 @@ header .intro-text .intro-lead-in  {
     padding-right: 1.6666666666666667rem;
     padding-left: 1.6666666666666667rem;
     padding-top: 0.7222222222222222rem;
-    padding-bottom: 0.7222222222222222rem;
+    padding-bottom: 0.2222222222222222rem;
 }
 
 .content-block .is-content a{
     color: #785aae;
-    padding-right: 1.6666666666666667rem;
-    padding-left: 1.6666666666666667rem;
+    padding-left: -3.6666666666666667rem;
     padding-top: 0.7222222222222222rem;
     padding-bottom: 0.7222222222222222rem;
     border-radius: 2.2222222222222223rem 
     !important;
+    margin-left:-150px;
 }
 
 
