@@ -62,6 +62,7 @@ p {
     color: #797979;
 }
 
+
 a:hover, a:focus, a:active, a.active {
     color: #fec503;
 }
@@ -177,13 +178,10 @@ header {
     -o-background-size: cover;
     text-align: center;
     color: #0084ff;
-	text-decoration: none solid rgb(96,96,96)
+    text-decoration: none solid rgb(96,96,96);
+    height:350px;
 }
 
-header .intro-text {
-    padding-top: 30px;
-    padding-bottom: 50px;
-}
 
 @media (min-width: 768px) {
 	header .intro-text {
@@ -196,8 +194,9 @@ header .intro-text .intro-heading  {
     font-family: "Roboto",sans-serif;
     font-style:normal;
     font-size: 22px;
-    line-height: 22px;
-    margin-bottom: 25px;
+    margin-bottom: 5px;
+    margin-right:700px;
+    margin-top:-50px;
 }
 
 @media (min-width: 768px) {
@@ -206,7 +205,7 @@ header .intro-text .intro-heading  {
 	    font-style:normal;
 	    font-size: 22px;
 	    line-height: 40px;
-	    margin-bottom: 25px;
+	    margin-bottom: 5px;
 	}
 }
 
@@ -215,7 +214,7 @@ header .intro-text .intro-lead-in  {
     font-weight: 700;
     font-size: 45px;
     line-height: 50px;
-    margin-bottom: 25px;
+    margin-right:630px;
 }
 
 @media (min-width: 768px) {
@@ -223,13 +222,85 @@ header .intro-text .intro-lead-in  {
 	    text-transform:inherit;
 	    font-weight: 700;
 	    font-size: 45px;
-	    line-height: 60px;
+        line-height: 60px;
 	    margin-bottom: 50px;
 	}
 }
+
 /*--------------------
 4. Sections
 --------------------*/
+.content-block .container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: -320px;
+    padding: 2rem;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    font-size:17px; 
+}
+
+.content-block .column {
+    display: inline-block;
+    padding-left: 0rem;
+    padding-right: .83333rem;
+    vertical-align: baseline;
+
+}
+
+.content-block .row{
+    position: relative;
+    flex: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    display: flex;
+    margin-left: -.83333rem;
+    margin-right: -.83333rem;
+}
+
+.content-block .column-wrapper {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.content-block .ce-button{
+    text-align:center;
+    -webkit-font-smoothing: antialiased;
+    width:350px;
+    margin-left:40px;
+}
+
+.content-block .is-content {
+    background-color: #f7f7f7;
+    border-radius: 2.2222222222222223rem !important;
+    border-width: 0.222222222222222rem !important;
+    border-color: #785aae !important;
+    border-style:solid;
+    padding-right: 1.6666666666666667rem;
+    padding-left: 1.6666666666666667rem;
+    padding-top: 0.7222222222222222rem;
+    padding-bottom: 0.2222222222222222rem;
+}
+
+.content-block .is-content a{
+    color: #785aae;
+    padding-left: -3.6666666666666667rem;
+    padding-top: 0.7222222222222222rem;
+    padding-bottom: 0.7222222222222222rem;
+    border-radius: 2.2222222222222223rem 
+    !important;
+    margin-left:-150px;
+}
+
 
 .section-title h2 {
     font-size: 34px;
@@ -243,6 +314,77 @@ header .intro-text .intro-lead-in  {
     margin: 20px 100px 60px 100px;
 }
 
+.content-intro {
+    padding:0px;
+}
+
+.intro-content{
+    
+    margin-top: 20px;
+    font-style: bold;
+    font-weight: 400;
+}
+
+.lines{
+    width:200px;
+    margin-left:-15px;
+}
+
+.intro-container{
+    height:400px;
+    background-color:rgb(248, 248, 248);
+}
+
+.intro-list{
+    margin-left:-50px;
+    margin-top:30px;
+}
+
+.font_0{
+    line-height: 150%;
+}
+
+.intro-pic{
+    height:500px;
+    margin-top:90px;
+    margin-left:-40px;
+}
+.intro-pic-fresh{
+    height:500px;
+    margin-top:50px;
+    margin-left:-200px;
+}
+
+.statement{
+    height:350px;
+    margin-top:210px;
+}
+
+.body-content{
+    margin-bottom: 30px;
+}
+
+.title{
+    margin-left:300px;
+    margin-top:80px;
+    margin-bottom:70px;
+}
+.title-1{
+    margin-left:178px;
+    margin-top:80px;
+    margin-bottom:25px;
+}
+
+.best-award{
+    font-size:20px;
+    margin-left:400px;
+    margin-top:100px;
+    height:100px;
+}
+
+.day2{
+    margin-top:-200px;
+}
 /*--------------------
 4.1. About
 --------------------*/
@@ -339,7 +481,7 @@ margin: 0;
 }
 .unit-100-end-text-centered{
 	font-family:Vollkorn,sans-serif;
-	font-style:italic;
+    font-style:italic;
 }
 /*--------------------
 4.3. Portfolio
@@ -534,144 +676,6 @@ figure.effect-bubba:hover p {
 4.6. Team
 --------------------*/
 
-.team-item {
-    text-align: center;
-    background-color: #fff;
-}
-
-.team-item h3 {
-    font-size: 16px;
-    font-weight: 500;
-}
-
-.team-item .team-location {
-    color: #C5C5C5;
-    font-size: 13px;
-    margin-bottom: 20px;    
-}
-
-.team-item .team-location {
-    color: #C5C5C5;
-    font-size: 12px;
-    margin-bottom: 20px;    
-}
-
-.team-item .team-position {
-    color: #000;
-    font-size: 12px;
-}
-
-.team-item p {
-    font-size: 13px;
-    font-weight: 300;
-    color: #9C9C9C;
-    padding: 5px 10px 20px 10px;
-}
-
-/*--------------------
-4.7. Contacts
---------------------*/
-
-section#contact form {
-    margin-top: 15px;
-}
-section#contact.form-group {
-margin-bottom: 25px;
-}
-
-section#contact .form-group input, section#contact .form-group textarea {
-    padding: 15px;
-    border: 1px solid #BBBBBB;
-    border-radius: 0;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
-    box-shadow: inset 0 0px 0px rgba(0,0,0,.075);
-    font-size: 13px;
-}
-
-.contact h3 {
-    margin-bottom: 30px;
-}
-
-.contact p {
-    font-size: 13px;
-}
-
-.contact .day {
-    display: inline-block;
-    width: 80px;
-}
-
-.contact i {
-    margin-right: 5px;
-}
-
-/*--------------------
-5. Footer
---------------------*/
-
-footer {
-    padding: 30px;
-    background-color: #E8E8E8;    
-}
-
-footer p {
-    color: #606060;
-    margin: 0;
-    font-size: 10px;
-    text-transform: uppercase;
-    font-weight: 500;
-    letter-spacing: 1.6px;
-}
-
-footer p a {
-    color: #fff;
-}
-
-footer p a span {
-    color: #FF9F46;
-    font-size: 10px;
-    letter-spacing: 1px;
-    font-weight: 700;
-}
-
-/*--------------------
-6. Modal
---------------------*/
-
-.modal-content {
-	border-radius: 0;	
-}
-.modal-header .close {
-	font-size: 30px;	
-}
-.modal-title {    
-	text-transform: uppercase;
-	font-size: 23px;
-}
-
-.modal-body {
-	padding: 0;
-}
-
-.modal-body p {
-	margin: 30px 20px;
-	color: #2D2D2D;		
-}
-
-.modal-works {
-font-size: 11px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    font-weight: 500;
-    color: #fff;
-    margin: 25px 20px;
-}
-
-.modal-works span {
-	background-color: #FED136;
-    margin-right: 15px;
-    padding: 5px 10px;
-}
 
 /*--------------------
 7. Components
