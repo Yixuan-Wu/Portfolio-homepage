@@ -320,7 +320,7 @@ header .intro-text .intro-lead-in  {
 
 .intro-content{
     
-    margin-top: 20px;
+    margin-top: 30px;
     font-style: bold;
     font-weight: 400;
 }
@@ -331,7 +331,7 @@ header .intro-text .intro-lead-in  {
 }
 
 .intro-container{
-    height:400px;
+    height:500px;
     background-color:rgb(248, 248, 248);
 }
 
@@ -377,9 +377,9 @@ header .intro-text .intro-lead-in  {
 
 .best-award{
     font-size:20px;
-    margin-left:400px;
-    margin-top:100px;
+    text-align:center;
     height:100px;
+    padding-top:50px;
 }
 
 .day2{
