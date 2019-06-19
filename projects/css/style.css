@@ -227,23 +227,6 @@ header .intro-text .intro-lead-in  {
 	}
 }
 
-@media (max-width:1920px){
-    .gmail{padding-left:135px;
-
-    }
-}
-
-@media(max-width:1920px){
-    .ins{
-       padding-left:160px;
-    }
-}
-@media(max-width:1920px){
-    .analysis{
-        padding-left:160px;
-
-    }
-}
 /*--------------------
 4. Sections
 --------------------*/
@@ -402,6 +385,14 @@ header .intro-text .intro-lead-in  {
 .day2{
     margin-top:-200px;
 }
+
+@media(min-width:992px){
+    .viewpoint{
+        width:100%;
+    }
+
+}
+
 /*--------------------
 4.1. About
 --------------------*/
