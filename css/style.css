@@ -175,21 +175,27 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    text-align: center;
+    text-align: left;
     color: #0084ff;
     text-decoration: none solid rgb(96,96,96);
     padding-top: 50px;
+
 }
 
 header .intro-text {
-    padding-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+header .intro{
+    padding-top: 150px;
     padding-bottom: 50px;
 }
 
 @media (min-width: 768px) {
 	header .intro-text {
 	    padding-top: 200px;
-	    padding-bottom: 200px;
+	    padding-bottom: 100px;
 	}
 }
 
@@ -228,6 +234,7 @@ header .intro-text .intro-lead-in  {
 	    margin-bottom: 50px;
 	}
 }
+
 /*--------------------
 4. Sections
 --------------------*/
