@@ -753,6 +753,10 @@ font-size: 11px;
     -webkit-transition: 1s;
     -moz-transition: 1s;
     transition: 1s;
+    position: fixed;
+    z-index: 1000;
+    bottom: 40px;
+    right: 50px;
 }
 #back-top a:hover {
     background: #fed136;
